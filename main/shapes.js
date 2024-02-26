@@ -28,5 +28,34 @@ renderCircle() {
 </svg>`
   }
 }
+
+class Square extends Shapes {
+  constructor(fill, borderColor, borderWidth, textColor, text, textSize, radius) {
+    super(fill, borderColor, borderWidth, textColor, textSize, text)
+    this.radius = radius; 
+  }
+
+renderSquare() {
+  return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="250" height="185" x="10" y="10" rx="${this.radius}" ry="50" style="fill:${this.fillColor};stroke-width:${this.borderWidth};stroke:${this.borderColor}" />
+  <text x="135" y="125" font-size="${this.textSize}" text-anchor="middle" fill="${this.textColor}">${this.text}</text>
+  </svg>
+`
+  }
+}
+
+class Triangle extends Shapes {
+  constructor(fill, borderColor, borderWidth, textColor, text, textSize) {
+    super(fill, borderColor, borderWidth, textColor, textSize, text)
+  }
+
+renderTriangle() {
+  return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="100,10 10,190 190,190"  style="fill:${this.fillColor};stroke-width:${this.borderWidth};stroke:${this.borderColor}" />
+  <text x="100" y="170" font-size="${this.textSize}" text-anchor="middle" fill="${this.textColor}">${this.text}</text>
+  </svg>
+`
+  }
+}
 //exporting the shapes and circle to render (will had more shapes such as triangle and square)
-module.exports = { Shapes, Circle }
+module.exports = { Shapes, Circle, Square, Triangle }
