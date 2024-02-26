@@ -33,12 +33,7 @@ const questions = [
     {
         type: 'input',
         name: 'borderWidth',
-        message: 'What would you like your border width to be (enter a number between 2-20)?',
-    },
-    {
-        type: 'input',
-        name: 'radius',
-        message: 'How big do you want your shape to be (enter a number between 20-90)?', 
+        message: 'What would you like your border width to be (enter a number between 0-20)?',
     },
 ];
 
