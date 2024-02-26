@@ -17,18 +17,18 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'shapeFill',
+    name: 'fillColor',
     message: 'What background color would you like your shape to be?',
 },
 {
     type: 'input',
     name: 'border',
-    message: 'What boarder color would you like your shape to have?',
+    message: 'What border color would you like your shape to have?',
 },
 {
     type: 'input',
     name: 'borderWidth',
-    message: 'What would you like your broder width to be?',
+    message: 'What would you like your border width to be?',
 },
 {
     type: 'input',
