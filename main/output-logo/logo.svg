@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <polygon points="100,10 10,190 190,190" style="fill:pink;stroke-width:10;stroke:purple" />
   <text x="100" y="170" font-size="50" text-anchor="middle" fill="red">tam</text>
   </svg>
+=======
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="100" r="90" fill="purple" style="stroke-width:3;stroke:red" />
+  <text x="150" y="125" font-size="50" text-anchor="middle" fill="pink">TAM</text>
+</svg>
+>>>>>>> 0545ab3d030c17d809d0184c099571d43b03b828
