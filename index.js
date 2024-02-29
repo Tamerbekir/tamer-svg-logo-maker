@@ -31,7 +31,7 @@ const init = () => {
                     //the file is then written into the main/output folder and render a circle
                     fs.writeFile('./main/output-logo/logo.svg', circle.renderCircle(), (err) => {
                         //using canary to throw an error is something is wrong, otherwise user will get  message saying "logo Created"
-                        err ? console.error(err) : console.log("Your circle has been created.")
+                        err ? console.error(err) : console.log("Generated logo.svg")
                     })
                     break;
                 case 'Square':
@@ -43,7 +43,7 @@ const init = () => {
                         data.text,
                     )
                     fs.writeFile('./main/output-logo/logo.svg', square.renderSquare(), (err) => {
-                        err ? console.error(err) : console.log("Your square has been created.")
+                        err ? console.error(err) : console.log("Generated logo.svg")
                     })
                     break;
                 case 'Triangle':
@@ -55,7 +55,7 @@ const init = () => {
                         data.text,
                     )
                     fs.writeFile('./main/output-logo/logo.svg', triangle.renderTriangle(), (err) => {
-                        err ? console.error(err) : console.log("Your triangle has been created.")
+                        err ? console.error(err) : console.log("Generated logo.svg")
                     })
                     break;
             }
