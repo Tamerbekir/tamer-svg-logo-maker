@@ -1,19 +1,15 @@
+// Questions that are being prompt to the user via terminal command line as they are exported to index.js to be writtena as a file after user types their input.
 const questions = [
     {
         type: 'list',
         name: 'shapes',
-        message: 'What shape would you like?',
+        message: 'What shape would you like for your logo?',
         choices: ['Square', 'Circle', 'Triangle'],
     },
     {
         type: 'input',
         name: 'text',
         message: 'What text would you like to display (max 3 characters)?',
-    },
-    {
-        type: 'input',
-        name: 'textSize',
-        message: 'What text size would you like to display (enter a number between 40-70)?',
     },
     {
         type: 'input',
@@ -37,5 +33,5 @@ const questions = [
     },
 ];
 
-
+//Typed responses by the users are exported to index.js
 module.exports = questions;
