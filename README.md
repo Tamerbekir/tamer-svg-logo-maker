@@ -16,6 +16,9 @@ There are no steps to install this project. The user can copy and paste this pac
 ## Usage
 Once the user copy and pastes these packages into their coding program, the user must open their command terminal and go to the correct path/directory to the index.js. From there, the user must type in 'npm init', followed by, 'npm i inquirer@8.2.4' and then lastly, type 'npm install --save -dev'.
 
+<a href="https://drive.google.com/file/d/1YPo9DejoukNP3aOOlVlCACes588keolN/view?usp=drive_link">SVG Logo Maker Demo</a>
+
+
 ## Credits
 N/A
 
